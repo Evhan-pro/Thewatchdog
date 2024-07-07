@@ -1,0 +1,53 @@
+/* Variables de couleur */
+:root {
+  --primary-color: #001f3f;
+  --secondary-color: #ffffff;
+  --text-color: #ffffff;
+  --background-color: #f8f9fa;
+}
+
+/* Corps de la page */
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Logo */
+.logo {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+/* En-tête */
+.header {
+  background-color: var(--second-color);
+  color: var(--primary-color);
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Arbre et détails */
+.tree-container, .details-container {
+  background-color: var(--text-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+  margin-left: 20px;
+}
+
+.card-header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
